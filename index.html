@@ -5,46 +5,119 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="Author" content="Federico Zorzi">
     <meta name="description" content="Questa pagina contiene un intro all'HTML">
+    <meta name="keyword" content="intro, HTML">
     <title>Intro HTML</Html></title>
 </head>
 <body>
+    <header>
     <!--  -->
-    <h1>Title 1</h1>
-    <h2>Title 2</h2>
-    <h3>Title 3</h3>
-    <h4>Title 4</h4>
-    <h5>Title 5</h5>
-    <h6>Title 6</h6>
+        <h1>Title 1</h1>    
+        <h2>Title 2</h2>    
+        <h3>Title 3</h3>    
+        <h4>Title 4</h4>    
+        <h5>Title 5</h5>    
+        <h6>Title 6</h6>    
+    </header>
+    <main>
+        <div>
+        <input type="text">
+        <input type="checkbox">
+        </div>
 
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br/>
-        Doloribus, optio aliquid perspiciatis aut consectetur nihil fuga,<br/>
-        aspernatur exercitationem soluta, incidunt nam.<br/>
-        Optio veniam non illum placeat ut quasi necessitatibus. Corporis.</p>
+        <!-- target fa aprire il link in un'altra pagina web -->
+        <a href="https://www.google.com" target="_blank">
+            <img src="img/logo.png" alt="logo di google">
+        </a>
 
-    <hr/>
+        <hr/>
+        
+        <a href="mailto:gert@jhu.edu">gert@jhu.edu</a>
+        
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br/>
+            Doloribus, optio aliquid perspiciatis aut consectetur nihil fuga,<br/>
+            aspernatur exercitationem soluta, incidunt nam.<br/>
+            Optio veniam non illum placeat ut quasi necessitatibus. Corporis.</p>
 
-    <ol>
-        <li>Item</li>
-        <li>Item</li>
-        <li>Item</li>
-        <li>Item</li>
-        <li>Item
-            <ul>
-                <li>Item</li>
-                <li>Item</li>
-                <li>Item</li> 
-            </ul>
-        </li>
-    </ol>
+        <hr/>
 
-    <hr/>
+        <ol>
+            <li>Item</li>
+            <li>Item</li>
+            <li>Item</li>
+            <li>Item</li>
+            <li>Item
+                <ul>
+                    <li>Item</li>
+                    <li>Item</li>
+                    <li>Item</li> 
+                </ul>
+            </li>
+        </ol>
 
-    <button>Premi</button>
-    <span>Testo</span>
-    <strong>Testo</strong>
-    <b>Testo</b>
-    <em>Testo</em>
-    <i>Testo</i>
+        <hr/>
+
+        <button>Premi</button>
+        <span>Testo</span>
+        <strong>Testo</strong>
+        <b>Testo</b>
+        <em>Testo</em>
+        <i>Testo</i>
+    </main>
+    <footer>
+        <div>
+            <table border="1"  cellpadding="5" cellspacing="0">
+                <!-- testa della tabella -->
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Cognome</th>
+                        <th>Classe</th>
+                        <th>Anno</th>
+                    </tr>
+                </thead>
+
+                <!-- corpo della tabella -->
+                <tbody>
+                    <tr>
+                        <td>1Nome studente</td>
+                        <td>1Cognome studente</td>
+                        <td>1Classe studente</td>
+                        <td>1Anno studente</td>
+                    </tr>
+
+                    <tr>
+                        <td>2Nome studente</td>
+                        <td>2Cognome studente</td>
+                        <td>2Classe studente</td>
+                        <td>2Anno studente</td>
+                    </tr>
+
+                    <tr>
+                        <td>3Nome studente</td>
+                        <td>3Cognome studente</td>
+                        <td>3Classe studente</td>
+                        <td>3Anno studente</td>
+                    </tr>
+
+                    <!-- attributo colspan raggruppa una cella su due colonne  -->
+                    <tr>
+                        <td colspan="2">Totale Studenti</td>
+                        <td colspan="2">3</td>
+                    </tr>
+
+                </tbody>
+
+                <!-- piè della tabella -->
+                <tfoot>
+                </tfoot>
+
+            </table>
+        </div>
+
+        <!-- tag per la definizione di informazioni personali -->
+        <address></address>
+    
+    </footer>
 
 </body>
 </html>
